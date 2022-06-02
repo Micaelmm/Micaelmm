@@ -1,0 +1,60 @@
+___________________________________________________________________________________________________________
+
+#Cabeçario da Calculadora
+print("Bem Vindo a Calculadora")
+print()
+
+#Pedido de Numeros
+num1 = float(input("Digite um numero: "))
+num2 = float(input("Digite um segundo numero: "))
+escolha = input("Digite a operaçao selecionada: ")
+print()
+
+#Area de Variaveis
+soma = (num1 + num2 )
+subtracao = (num1 - num2)
+multiplicacao = (num1 * num2)
+divisao = (num1 / num2)
+rest_div = (num1 % num2)
+potencia = (num1 ** num2)
+
+#Area de Condiçoes
+if(escolha == '+'):
+print("A soma de %.1f com %.1f e igual a %.1f " %(num1, num2, soma))
+elif(escolha == '-'):
+print("A subtraçao de %.1f com %.1f e igual a %.1f " %(num1, num2, subtracao))
+elif(escolha == '*'):
+print("A multiplicaçao entre %.1f e %.1f e igual a %.1f " %(num1, num2, multiplicacao))
+elif(escolha == '/'):
+print("A divisao entre %.1f e %.1f e igual a %.1f " %(num1, num2, divisao))
+elif(escolha == '%'):
+print("O resto da divisao de %.1f e %.1f e igual a %.1f" %(num1, num2, rest_div))
+elif(escolha == '**'):
+print("A potencia entre %.1f e %.1f e igual a %.1f" %(num1, num2, potencia))
+elif(escolha == "help"):
+print()
+print("Sinais das operaçoes")
+print("Para somar use: '+'")
+print("Para subtrair use: '-'")
+print("Para multiplicar use: '*'")
+print("Para dividir use: '/'")
+print("Para obter o resto da divisao use: '%'")
+print("Para ter a potencia use: '**'")
+print("Para todas as operaçoes suportadas use: 'todas'")
+print()
+elif( escolha == "todas"):
+print("A soma de %.1f com %.1f e igual a %.1f " %(num1, num2, soma))
+print("A subtraçao de %.1f com %.1f e igual a %.1f " %(num1, num2, subtracao))
+print("A multiplicaçao entre %.1f e %.1f e igual a %.1f " %(num1, num2, multiplicacao))
+print("A divisao entre %.1f e %.1f e igual a %.1f " %(num1, num2, divisao))
+print("O resto da divisao de %.1f e %.1f e igual a %.1f" %(num1, num2, rest_div))
+print("A potencia entre %.1f e %.1f e igual a %.1f" %(num1, num2, potencia))
+else:
+print("Voce nao digitou uma operaçao valida, se quiser ajuda digite help no local da operaçao!")
+
+#Final do Programa
+print()
+print("Obrigado Por Usar Nossa Calculadora!")
+#Designed by Note45
+
+___________________________________________________________________________________________________________
